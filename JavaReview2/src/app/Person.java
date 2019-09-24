@@ -24,8 +24,6 @@ public class Person {
         e = email;
     }
 
-
-
     public class Student{
 
         private String classStatus;
@@ -38,24 +36,18 @@ public class Person {
             cs = classStatus;
         }
 
-
-
     }
 
     public class Employee{
 
         
-
         public class Faculty{
-
 
         }
 
         public class Staff{
 
-
         }
     }
-
-    
+   
 }
