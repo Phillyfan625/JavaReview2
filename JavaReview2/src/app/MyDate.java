@@ -42,10 +42,12 @@ public class MyDate {
     public void setDay(int day) {
         this.day = day;
     }
-
+/*
     public setDate(long elapsedTime){
         
     }
+
+    */
 
     @Override
     public String toString() {
