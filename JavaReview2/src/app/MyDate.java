@@ -1,6 +1,5 @@
 package app;
 import java.util.Date;
-
 /**
  * MyDate
  */
@@ -31,15 +30,18 @@ public class MyDate {
     public int getDay() {
         return day;
     }
-
     
-
-    //  MyDate setDate(long elapsedTime){
+    MyDate setDate(long elapsedTime){
       
-    //      setDate(elapsedTime);
-    //  }
+        return setDate(elapsedTime);
+     }
 
-    
+    // public void setDate(long elapsedTime){
+	// 	SetD.setTimeInMillis(elapsedTime);
+	// 	year = c.get(Calendar.YEAR);
+	// 	month = c.get(Calendar.MONTH);
+	// 	day = c.get(Calendar.DAY_OF_MONTH);
+	// }
 
     @Override
     public String toString() {

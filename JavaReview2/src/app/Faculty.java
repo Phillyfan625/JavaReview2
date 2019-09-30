@@ -18,5 +18,12 @@ public class Faculty extends Employee {
             this.rank = rank;
         }
 
+    @Override
+    public String toString() {
+        return "Faculty [officeHours=" + officeHours + ", rank=" + rank + "]";
+    }
+
+        
+
     
 }

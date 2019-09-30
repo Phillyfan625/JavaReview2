@@ -15,4 +15,10 @@ public class Student extends Person {
         cs = classStatus;
     }
 
+    @Override
+    public String toString() {
+        return "Student [classStatus=" + classStatus + "]";
+    }
+    
+
 }

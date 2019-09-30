@@ -24,6 +24,11 @@ public class Person {
         e = email;
     }
 
+    @Override
+    public String toString() {
+        return "Person [address=" + address + ", email=" + email + ", name=" + name + ", number=" + number + "]";
+    }
+
     
    
 }
