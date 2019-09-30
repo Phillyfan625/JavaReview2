@@ -13,7 +13,7 @@ public class Person {
     public Person(){
         name = "default";
         address = "default";
-        number = 2;
+        number = 0;
         email = "default";
     }
 
@@ -39,13 +39,19 @@ public class Person {
     }
 
     public class Employee{
-
         
+        private String office;
+        private int salary;
+        //private String dateHired;
+   
         public class Faculty{
+            private String officeHours;
+            private String rank;
 
         }
 
         public class Staff{
+            private String title;
 
         }
     }

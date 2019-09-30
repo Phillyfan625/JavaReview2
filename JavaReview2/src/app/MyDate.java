@@ -8,9 +8,9 @@ public class MyDate {
     private int year,month,day;
 
     public MyDate(){
-        year = 1;
-        month = 1;
-        day = 1;
+        year = 2019;
+        month = 9;
+        day = 30;
     }
 
     public MyDate(int inf_year, int inf_month, int inf_day){
@@ -42,12 +42,13 @@ public class MyDate {
     public void setDay(int day) {
         this.day = day;
     }
-/*
-    public setDate(long elapsedTime){
-        
-    }
 
-    */
+     MyDate setDate(long elapsedTime){
+      
+         setDate(elapsedTime);
+     }
+
+    
 
     @Override
     public String toString() {
