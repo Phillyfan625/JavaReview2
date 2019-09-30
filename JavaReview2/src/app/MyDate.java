@@ -1,4 +1,5 @@
 package app;
+import java.util.Date;
 
 /**
  * MyDate
@@ -23,30 +24,20 @@ public class MyDate {
         return year;
     }
 
-    public void setYear(int year) {
-        this.year = year;
-    }
-
     public int getMonth() {
         return month;
-    }
-
-    public void setMonth(int month) {
-        this.month = month;
     }
 
     public int getDay() {
         return day;
     }
 
-    public void setDay(int day) {
-        this.day = day;
-    }
+    
 
-     MyDate setDate(long elapsedTime){
+    //  MyDate setDate(long elapsedTime){
       
-         setDate(elapsedTime);
-     }
+    //      setDate(elapsedTime);
+    //  }
 
     
 

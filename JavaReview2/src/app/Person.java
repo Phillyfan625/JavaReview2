@@ -24,36 +24,6 @@ public class Person {
         e = email;
     }
 
-    public class Student{
-
-        private String classStatus;
-
-        public Student(){
-            classStatus = "";
-        }
-
-        public Student(String cs){
-            cs = classStatus;
-        }
-
-    }
-
-    public class Employee{
-        
-        private String office;
-        private int salary;
-        //private String dateHired;
-   
-        public class Faculty{
-            private String officeHours;
-            private String rank;
-
-        }
-
-        public class Staff{
-            private String title;
-
-        }
-    }
+    
    
 }
