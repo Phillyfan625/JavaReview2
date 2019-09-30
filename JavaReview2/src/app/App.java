@@ -2,7 +2,7 @@ package app;
 
 
 
-public class App extends MyDate {
+public class App extends MyDate{
     public static void main(String[] args) {
        
         
@@ -23,7 +23,19 @@ public class App extends MyDate {
         /*
         Write a test program that creates a Person, Student, Employee, Faculty, and Staff, and invokes their toString() methods.
         */
+        Person p1 = new Person();
+        Student s1 = new Student();
+        Employee e1 = new Employee();
+        Faculty f1 = new Faculty();
+        Staff st1 = new Staff();
+
+        System.out.println(p1.toString());
+        System.out.println(s1.toString());
+        System.out.println(e1.toString());
+        System.out.println(f1.toString());
+        System.out.println(st1.toString());
         
+
 
     }
 }
