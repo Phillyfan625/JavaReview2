@@ -10,18 +10,43 @@ public class Person {
     private int number;
     private String email;
 
-    public Person(){
-        name = "default";
-        address = "default";
-        number = 0;
-        email = "default";
+    public Person(String name, String address, int number, String email){
+        this.name = name;
+		this.address = address;
+		this.number = number;
+		this.email = email;
     }
 
-    public Person(String inf_Name, String inf_Address, int n, String e){
-        inf_Name = name;
-        inf_Address = address;
-        n = number;
-        e = email;
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     @Override

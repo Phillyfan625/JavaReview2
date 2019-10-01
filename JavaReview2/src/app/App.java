@@ -30,6 +30,7 @@ public class App extends MyDate{
         Staff st1 = new Staff();
 
         System.out.println(p1.toString());
+        p1.setName("PJ");
         System.out.println(s1.toString());
         System.out.println(e1.toString());
         System.out.println(f1.toString());

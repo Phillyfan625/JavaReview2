@@ -7,11 +7,11 @@ public class MyDate {
 
     private int year,month,day;
 
-    public MyDate(){
-        year = 2019;
-        month = 9;
-        day = 30;
+    public MyDate(long elapsedTime){
+        setDate(elapsedTime);
     }
+
+
 
     public MyDate(int inf_year, int inf_month, int inf_day){
         inf_year = year;
@@ -30,11 +30,18 @@ public class MyDate {
     public int getDay() {
         return day;
     }
+
+    public void setDate(long elapsedTime) {
+		long totalSeconds = elapsedTime / 1000;
+		long totalMinutes = totalSeconds / 60;
+		long totalHours = totalMinutes / 60;
+		long totalDays = totalHours / 24;
+		totalDays++;
+		
+		
+		}
     
-    MyDate setDate(long elapsedTime){
-      
-        return setDate(elapsedTime);
-     }
+    
 
     // public void setDate(long elapsedTime){
 	// 	SetD.setTimeInMillis(elapsedTime);
