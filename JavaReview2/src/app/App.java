@@ -5,7 +5,6 @@ import java.util.Date;
 public class App {
     public static void main(String[] args) {
        
-        
         /*
         Write a test program that creates two MyDate objects (using new MyDate() and new MyDate(34355555133101L) ) and displays their year, month, and day. 
         The first two constructors will extract the year, month, and day from the elapsed time. 
@@ -17,7 +16,6 @@ public class App {
         
          System.out.println(md.toString());
          System.out.println(md2.toString());
-
 
         /*
         Write a test program that creates a Person, Student, Employee, Faculty, and Staff, and invokes their toString() methods.
@@ -34,9 +32,5 @@ public class App {
         // System.out.println(f1);
         System.out.println(st1);
         
-        
-        
-
-
     }
 }

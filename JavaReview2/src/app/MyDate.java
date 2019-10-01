@@ -44,15 +44,6 @@ public class MyDate {
 		
 		
 		}
-    
-    
-
-    // public void setDate(long elapsedTime){
-	// 	SetD.setTimeInMillis(elapsedTime);
-	// 	year = c.get(Calendar.YEAR);
-	// 	month = c.get(Calendar.MONTH);
-	// 	day = c.get(Calendar.DAY_OF_MONTH);
-	// }
 
     @Override
     public String toString() {
