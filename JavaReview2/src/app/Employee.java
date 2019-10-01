@@ -6,15 +6,43 @@ package app;
 public class Employee {
       
         private String office;
-        private int salary;
-        //private String dateHired;
+        private double salary;
+        private MyDate dateHired;
 
-        public Employee(){
-            office = "";
-            salary=0;
-        }
-        public Employee(String inf_Office, int inf_Salary){
-            office = inf_Office;
-            salary = inf_Salary;
-        }
+        public Employee(String name, String address, int number, String email,String office, double salary, MyDate dateHired) {
+        super();
+        this.office = office;
+        this.salary = salary;
+        this.dateHired = dateHired;    
+    }
+
+    public String getOffice() {
+        return office;
+    }
+
+    public void setOffice(String office) {
+        this.office = office;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    public MyDate getDateHired() {
+        return dateHired;
+    }
+
+    public void setDateHired(MyDate dateHired) {
+        this.dateHired = dateHired;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee: dateHired=" + dateHired + ", office=" + office + ", salary=" + salary + "";
+    }
+    
 }

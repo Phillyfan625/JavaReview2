@@ -11,7 +11,11 @@ public class MyDate {
         setDate(elapsedTime);
     }
 
-
+    public MyDate(){
+        year = 0;
+        month = 0;
+        day = 0;
+    }
 
     public MyDate(int inf_year, int inf_month, int inf_day){
         inf_year = year;
